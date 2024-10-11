@@ -1,0 +1,1078 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure,  
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*End of reset CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Croissant+One&family=Freehand&family=Satisfy&family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Croissant+One&family=Freehand&family=Montserrat&family=Satisfy&family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Croissant+One&family=Freehand&family=Montserrat:wght@700&family=Satisfy&family=Seaweed+Script&display=swap');
+
+html{
+    background-color:rgba(122, 191, 191, .5);
+    
+}
+
+body{
+    max-width: 414px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+
+}
+
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#details h2{
+    text-align: center;
+}
+
+dl{
+    display: flex;
+}
+
+dt{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Croissant One', cursive;
+    font-size: 16px;
+  
+}
+
+dd{
+    margin-top: 11px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+
+.street{
+    background-color: #f2f2f2;
+    width: 100%;
+    
+    
+}
+
+
+
+.street img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.street h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+.street h2{
+    text-align: center;
+    margin-top: 25px;
+}
+.street p{
+    text-align: left;
+    margin: 10px;
+}
+
+.tacostyle h2{
+    display: none;
+}
+
+ul, li, a, p{
+    text-transform: uppercase;
+   
+}
+
+
+
+
+main{
+    background-color: #f2f2f2;
+    margin-top: -10px;
+    
+}
+
+#details{
+    padding-top: 20px;
+}
+
+#ingredients{
+    margin-top: 40px;
+}
+
+#ingredients ul{
+    max-height: 500px;
+}
+
+#ingredients ul li{
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 2em;
+    list-style-type:square;
+}
+
+#ingredients h2, h2{
+    margin-top: 10px;
+}
+
+#ingredients ol li{
+    margin-top: 20px;
+}
+#ingredients h2, ol, li{
+    list-style-type: decimal;
+    margin-left: 10px;
+}
+
+#ingredients h2{
+    text-align: center;
+}
+
+
+.linkcolor{
+    text-decoration: none;
+    color: black;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+   
+}
+menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    	margin: 0 10px 0 0;
+    list-style: none;
+}
+
+menu li a{
+    color:#eb5428;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+ 
+}
+
+
+
+
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+}    
+
+nav a{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+
+}
+
+nav ul{
+    
+    margin-top: 30px;
+}
+
+nav span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+
+}
+
+nav h3{
+    display: none;
+}
+
+
+nav img{
+    max-width: 50px;
+}
+
+nav li{ 
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav ul li img{
+      
+    display: none;
+}
+
+
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 2px;
+    position: relative;
+    user-select: none;
+    
+} 
+
+ul {
+    max-height: 0;
+    overflow: hidden;
+   
+  }
+
+  input:checked ~ ul {
+    max-height: 500px;
+  }
+  /* input {
+    display: none;
+  } */
+
+  
+
+/* nav ul:nth-child(2){
+    flex: 1;
+    position: absolute;
+} */
+
+nav ul li:first-child{
+    flex: 1;
+    background-color: #eb5428;
+    position: absolute;
+    top: -2px;
+    padding-right: 10px;
+    justify-content: center;
+    
+    margin-left: -80px;
+}
+
+nav ul li:last-child{
+    flex: 1;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    
+}
+
+#hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hamburger-checkbox {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+#hamburger label {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+    font-family: "Bebas neue", sans-serif;
+} 
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+nav {
+    order: 1;
+    position: relative;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+nav div {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+nav ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+header{
+    order: 2;
+}
+
+main{
+    order: 3;
+}
+
+.sidewrapper{
+    order: 4;
+}
+
+
+#searchbar{
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+   top: 90px;
+ }
+
+
+
+
+.directions ol li{
+    margin: 20px 10px;
+    text-align: left;
+}
+
+.sidecontainer{
+     
+        margin-bottom: 10px; 
+    } 
+    
+    #search-bar{
+        height: 40px;
+    }
+
+/* #searchbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+   
+ } */
+
+ #searchbar{
+    display: flex;
+    justify-content: center;
+    margin-top: -92px;
+ }
+
+.sidecontainer a{
+text-decoration: none;
+color: black;
+}
+
+.side{
+margin-left: 10px;
+margin-top: 20px;
+}
+
+.side h3{
+margin-top: 2px;
+font-weight: bold;
+}
+
+.side p{
+margin-top: 25px;
+}
+
+
+.mexicanside{
+display: flex;
+flex-direction: row;
+
+}
+.mexicanside h2{
+    display: none;
+}
+
+.arrange h2{
+    display: none;
+}
+
+
+.mexicanside a img{
+width: 110px;
+height: 110px;
+margin-left: 5px;
+margin-top: 20px;
+}
+
+.mexicanside > section > section > img{
+order: 1;
+}
+
+.mexicanside > section > section > h3{
+order: 2;
+
+}
+
+.mexicanside > section > section > p{
+order: 3;
+}
+
+.star-rating{
+order: 4;
+margin-top: 30px;
+}
+
+
+.star-rating h2{
+    display: none;
+}
+.star-rating p{
+margin-top: -20px;
+font-weight: bold;
+}
+
+.star-rating svg{
+margin-top: 1px;
+}
+
+.side > .mexicanside{
+display: flex;
+flex-direction: column;
+order: 2;
+}
+
+
+
+.mexicanside img{
+    width: 30%;
+    height: 50%;
+}
+
+.sidewrapper{
+    background-color: #7ABFBF;
+}
+
+.sidedishes{
+    margin-left: 5px;
+}
+.sidewrapper h2{
+    text-transform: uppercase;
+
+}
+
+.side h3{
+    grid-column: 1/-1;
+    order: 1;
+}
+
+
+menu li{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+
+}
+
+#socialmedia ul{
+    max-height: 100px;
+    display: flex;
+}
+
+#socialmedia li a{
+    text-decoration: none;
+    color:#eb5428;
+}
+
+footer {
+	order: 5;
+    background-color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer h3,
+footer h2 {
+	display: none;
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+footer  ul li {
+    list-style: none;
+}
+footer img {
+	display: block;
+}
+
+footer li a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;    
+	color: var(--orange);
+	margin: 0;
+	padding: 0;
+}
+
+footer > section:last-of-type {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+footer section div {
+    order: 2;
+    color: var(--black);
+	font-family: "Bebas neue", sans-serif;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+footer img {
+	width: 50%;
+}
+
+
+@media screen and (min-width:768px){
+
+    body{
+        max-width: 768px;
+    }
+
+
+    nav {
+        display: flex;
+        /* justify-content: space-between; */
+      }
+    nav ul {
+        flex: 1;
+        display: flex;
+        margin-top: 60px;
+    } 
+
+    nav label{
+        display: none;
+    }
+
+     
+    ul{
+        overflow: visible;
+        max-height: 100px;
+    }
+  
+    
+
+    /* #searchbar{
+        position: absolute;
+        order: 3;
+       right: 130px;
+        margin-bottom: -30px;
+        top: 30px; 
+    } */
+    
+
+
+    nav ul li:first-child{
+      order: 1;
+      left: 80px;
+     
+    }
+
+    nav ul li:last-child{
+        order: 4;
+        margin-bottom: 10px;
+    }
+
+
+    
+
+    dl{
+        justify-content: center;
+    }
+
+    .street{
+        margin-top: 20px;
+    }
+
+    #ingredients{
+        display: flex;
+        margin-bottom: 40px;
+       
+    }
+
+    /* #ingredients h2 + h2{
+        margin-right: -200px;
+        margin-left: -80px;
+       padding-right: 150px;
+        padding-left: 120px;
+    
+    }  */
+
+  
+    #ingredients ul{
+        margin-top: 50px;
+    } 
+
+    #ingredients ul li{
+        line-height: 1em;
+       /* justify-content: left; */
+        margin-left: -190px;
+       
+        /* padding-right: 20px; */
+        /* margin-right: 20px; */
+    }
+
+    #ingredients ol{
+        margin-top: 50px;
+        margin-left: -10px;
+        
+    }
+
+    #ingredients ol li{
+        line-height: 1.05em;
+        margin-left: -160px;
+    }
+
+
+    
+    .street h1{
+        margin-left: 20px;
+        text-align: left;
+        margin-top: -40px;
+        
+    }
+    
+
+
+    nav ul li img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+ 
+    nav ul li a{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color:#eb5428;
+        margin-left: 12px;
+       
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /* nav h3 input{
+        display: none;
+    } */
+
+   nav ul li:not(:first-child):not(:last-child){
+    display: flex;
+    order: 3;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.tacostyle h2{
+    display: none;
+}
+
+
+#searchbar{
+    margin-top: -80px;
+    left: -80px;
+  
+}
+
+    
+    .street menu{
+        margin-bottom: -70px;
+        margin-top: 20px;
+        background-color: rgba(255, 255, 255, 0.3);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+
+    .street menu li{
+        margin-right: 80px;
+        margin-left: 60px;
+        
+    }
+
+    .arrange{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .arrange h2{
+        display:none;
+    }
+    
+    .sidecontainer h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+
+    
+ 
+    
+
+  footer{
+    display: flex;
+    margin-top: 10px;
+   
+  }
+  footer img{
+    order: 1;
+    margin-top: 40px;
+    width: 50%;
+    margin-left: -20px;
+  }
+
+  
+
+  #socialmedia{
+      order: 2;
+}
+
+
+  
+}
+
+@media screen and (min-width:1280px){
+
+
+    body{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    ul{
+        overflow: visible;
+        max-height: 20px;
+   
+    }
+
+
+ 
+    
+    nav ul{
+        max-width: 20%;
+   }
+
+   
+
+    nav ul li:not(:first-child):not(:last-child){
+        margin-left: 100px;
+        margin-right: -10px;
+        margin-top: -75px;
+        padding-left: -10px;
+        padding-right: -50px;
+    }
+
+
+   #searchbar{
+   margin-left: -100px;
+    order: 4;
+    width: 100%;
+    
+    
+    }
+
+    #searchbar input{
+        width: 30%;
+        margin-top: 118.2px;
+        
+    }
+
+    #searchbar a{
+        
+        margin-top: 118px;
+    }
+    
+    nav ul li:first-child{
+        margin-right: 15px;
+        
+    }
+  
+    
+    nav ul li:last-child{
+        margin-left: -20px;
+    }
+
+ 
+    
+
+  
+    /* nav ul li:not(:first-child):not(:last-child){
+     
+        order: 2;
+        left: 0;
+        
+    }   */
+    
+
+    
+    .street h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+ 
+
+    .street menu{
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        padding-top: 12px;
+        padding-left: 20px;
+        padding-bottom: 50px;
+        background-color: white;
+        margin-right: 1120px;
+        line-height: 1.25em;
+        margin-top: 22px;
+        border: 1px solid red;
+    }
+
+    .street menu li{
+        padding-top: 40px;
+        
+    }
+
+
+   
+    .tacostyle{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+
+    }
+
+    .tacostyle h2{
+        display: none;
+    }
+
+    .tacostyle img{
+        width: 49%;
+        margin-left: 88px;
+        margin-top: -391.5px; 
+    }
+
+    .street p{
+        display: flex;
+        margin-top: -390px;
+        margin-left: -214px;
+        margin-right: 260px;
+        padding-right: 110px;
+        line-height: 1.75em;
+        
+    }
+
+.street p + p{
+    margin-left: 120px;
+    margin-right: -370px;
+    margin-top: -320px;
+    padding-left: 300px;
+}
+
+#details{
+    background-color: black;
+}
+
+#details h2{
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+
+h2, dl{
+    color:#7ABFBF;
+}
+
+dl{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 80px;
+}
+
+dd, dt{
+    align-items: center;
+}
+
+
+/* nav ul li:first-child{
+   order: 1;
+} */
+
+#ingredients{
+    margin-bottom: 20px;
+}
+
+#ingredients h2{
+    color: black;
+   
+}
+
+#ingredients ul{
+    margin-top: 50px;
+}
+
+#ingredients ul li{
+    margin-top: 15px;
+}
+
+#ingredients ol li{
+    line-height: 28px;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+}
+.arrange{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.mexicanside{
+    display: flex;
+    flex-direction: column;
+}
+
+.mexicanside a img{
+    width: 80%;
+    height: 80%;
+    
+}
+
+.mexicanside h2{
+    display: none;
+}
+.sidecontainer h2{
+    color: black;
+ }
+
+
+ .sidewrapper{
+    margin-top: 10px;
+ }
+
+ footer {
+    display: flex;
+ }
+ 
+footer img{
+    width: 40%;
+    margin-top: 30px;
+    justify-content: left;
+    order: 2;
+}
+
+#socialmedia{
+    margin-left: 200px;
+}
+
+#socialmedia p{
+    margin-left: -120px;
+}
+
+
+}
